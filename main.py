@@ -1,18 +1,16 @@
 import discord
 import config
 import random
-
 # LATER to use when I'm pulling different phrases from lists of possible responses?
+
 TOKEN = config.TOKEN
 
 # Sets client & functions
 client = discord.Client()
 
-
 @client.event
 async def on_ready():
     print(f"We have logged in as {client.user}")
-
 
 @client.event
 async def on_message(message):
