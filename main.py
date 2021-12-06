@@ -37,7 +37,7 @@ async def on_message(message):
     if switch:
         if msg.startswith("!talk"):
             await message.channel.send("What would you like to talk about?")
-        #await message.channel.send("Fred!")
+        # await message.channel.send("Fred!")
         """
         if any(word in msg.lower() for word in money_words):
             await message.channel.send(random.choice(money_response))
